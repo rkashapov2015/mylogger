@@ -10,22 +10,16 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist request-logger/yii2-requestloger "*"
+php composer.phar require --prefer-dist rkashapov2015/yii2-mylogger "*"
 ```
 
 or add
 
 ```
-"request-logger/yii2-requestloger": "*"
+"rkashapov2015/yii2-mylogger": "*"
 ```
 
 to the require section of your `composer.json` file.
 
 
-Usage
------
-
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \rinatk\mylogger\AutoloadExample::widget(); ?>```
+php yii migrate --migrationPath=@rkashapov2015/yii2-mylogger/migrations
