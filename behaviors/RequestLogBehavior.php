@@ -27,7 +27,11 @@ class RequestLogBehavior extends Behavior {
      * @param type $event
      */
     public function afterRequest($event) {
-        
+        $isWebApp = \Yii::$app instanceof \yii\web\Application;
+        if(!$isWebApp) {
+            return true;
+        }
+
         $log = new Log();
         
         $log->agent = Yii::$app->request->userAgent;

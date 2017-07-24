@@ -22,4 +22,4 @@ or add
 to the require section of your `composer.json` file.
 
 
-php yii migrate --migrationPath=@rkashapov2015/yii2-mylogger/migrations
+php yii migrate --migrationPath=@rkashapov2015/mylogger/migrations
