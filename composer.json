@@ -19,6 +19,6 @@
         }
     },
     "extra": {
-        "bootstrap": "rinatk\\yii2-mylogger\\MyLogger"
+        "bootstrap": "rinatk\\mylogger\\MyLogger"
     }
 }
