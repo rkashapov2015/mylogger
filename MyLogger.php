@@ -10,7 +10,6 @@ use rinatk\mylogger\behaviors\RequestLogBehavior;
  * @author rinat
  */
 class MyLogger implements \yii\base\BootstrapInterface {
-    //put your code here
     public function bootstrap($app) {
         $app->attachBehavior('mylogger', RequestLogBehavior::className());
     }

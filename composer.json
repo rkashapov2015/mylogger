@@ -11,12 +11,15 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": "~2",
         "himiklab/yii2-ipgeobase-component": "*"
     },
     "autoload": {
         "psr-4": {
             "rkashapov2015\\yii2-mylogger\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "rkashapov2015\\yii2-mylogger\\MyLogger"
     }
 }
