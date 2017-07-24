@@ -3,16 +3,16 @@
 use yii\db\Migration;
 
 /**
- * Handles the creation of table `log`.
+ * Handles the creation of table `mylogger`.
  */
-class m170721_121922_create_log_table extends Migration
+class create_log_table extends Migration
 {
     /**
      * @inheritdoc
      */
     public function up()
     {
-        $this->createTable('requestlog', [
+        $this->createTable('mylogger', [
             'id' => $this->primaryKey(),
             'user_id' => $this->integer()->null(),
             'ip' => $this->string(),
@@ -35,6 +35,6 @@ class m170721_121922_create_log_table extends Migration
      */
     public function down()
     {
-        $this->dropTable('requestlog');
+        $this->dropTable('mylogger');
     }
 }
