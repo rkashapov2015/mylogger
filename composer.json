@@ -3,7 +3,7 @@
     "description": "custom logger",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Rinat Kashapov",
@@ -15,10 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "rinatk\\yii2-mylogger\\": ""
+            "rinatk\\mylogger\\": ""
         }
     },
     "extra": {
-        "bootstrap": "rkashapov2015\\yii2-mylogger\\MyLogger"
+        "bootstrap": "rinatk\\yii2-mylogger\\MyLogger"
     }
 }
