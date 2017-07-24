@@ -1,5 +1,5 @@
 {
-    "name": "request-logger/yii2-requestloger",
+    "name": "rinatk/yii2-mylogger",
     "description": "request-logger",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
