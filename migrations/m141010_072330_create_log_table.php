@@ -5,7 +5,7 @@ use yii\db\Migration;
 /**
  * Handles the creation of table `mylogger`.
  */
-class create_log_table extends Migration
+class m141010_072330_create_log_table extends Migration
 {
     /**
      * @inheritdoc
