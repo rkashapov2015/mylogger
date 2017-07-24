@@ -2,6 +2,7 @@
 
 namespace rinatk\mylogger\behaviors;
 
+use rinatk\mylogger\models\MyLogger;
 use Yii;
 use yii\base\Application;
 use yii\web\Application as WebApp;
@@ -32,7 +33,7 @@ class RequestLogBehavior extends Behavior {
             return true;
         }
 
-        $log = new Log();
+        $log = new MyLogger();
         
         $log->agent = Yii::$app->request->userAgent;
         $log->ip = Yii::$app->request->userIP;
