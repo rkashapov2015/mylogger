@@ -1,0 +1,22 @@
+{
+    "name": "request-logger/yii2-requestloger",
+    "description": "request-logger",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Rinat Kashapov",
+            "email": "rinatkzz@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "himiklab/yii2-ipgeobase-component": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rinatk\\mylogger\\": ""
+        }
+    }
+}
