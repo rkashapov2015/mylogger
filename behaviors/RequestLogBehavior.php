@@ -7,7 +7,6 @@ use Yii;
 use yii\base\Application;
 use yii\web\Application as WebApp;
 use yii\base\Behavior;
-use app\models\Log;
 
 /**
  * Description of LogBehavior
